@@ -4,6 +4,10 @@ Chatbot WhatsApp otomatis
 Powered by Node.js + Meta API  
 By: Nanami-chan (⸝⸝⸝╸▵╺⸝⸝⸝) 
 
+<p align="center">
+  <img src="https://github.com/Rosmontis-Chan/Chatbot-WhatsApp/blob/main/103ad7a8334f2066a2ddfe00c78a619d.jpg?raw=true" width="400" alt="Chatbot-WA Banner" />
+</p>
+
 ---
 
 ## ✨ Fitur Utama
