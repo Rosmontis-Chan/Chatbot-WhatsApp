@@ -1,35 +1,32 @@
-# Chatbot WhatsApp (Meta API)
+# ❄️ WhatsApp Chatbot – Elegan & Kawaii Style (Sariphi Edition)
 
-**Project Elegan & Kawaii** (Putih dan Biru Style)  
-Powered by Node.js + Meta WhatsApp API  
-Deploy easily to **Vercel**
+**Chatbot WhatsApp**
 
-## Fitur:
-- Terhubung langsung ke WhatsApp API dari Meta
-- Menjawab pesan masuk secara otomatis
-- Siap deploy ke Vercel (tanpa `app.py`, no Python!)
-- Sangat ringan dan simple
+---
 
-## Cara Pakai:
-1. Clone atau download project ini
-2. Ganti isi file `.env.example` dan simpan sebagai `.env`
-3. Pastikan akun Meta Dev-mu sudah diatur dengan:
+## ✨ Fitur Utama
+- Terhubung langsung ke **Meta WhatsApp API**  
+- Menjawab pesan secara otomatis dan cepat  
+- Cocok untuk chatbot AI, notifikasi, atau sistem pelanggan  
+- Ringan, elegan, dan siap deploy ke **Vercel**  
+- Dibangun tanpa Python (no `app.py`!) – hanya **Node.js murni**
+
+---
+
+## ☁️ Cara Pakai (Awan Panduan)
+1. **Clone** atau **download** project ini dari GitHub  
+2. Salin `.env.example` menjadi `.env` lalu isi sesuai data API-mu  
+3. Pastikan akun **Meta for Developers**-mu sudah diatur:
    - Nomor ID WhatsApp
-   - Token API (Page Access Token)
-   - Verify Token
+   - Page Access Token
+   - Verify Token (bebas, tapi harus sama saat setting Webhook)
 
-4. Deploy ke Vercel dan pasang environment variables:
-   - `PAGE_ACCESS_TOKEN`
-   - `VERIFY_TOKEN`
-   - `NUMBER_ID`
-   - `PORT` = `3000`
+4. Deploy ke **Vercel** dan atur environment variables berikut:
+   - `PAGE_ACCESS_TOKEN` = token halamanmu
+   - `VERIFY_TOKEN` = token rahasia untuk verifikasi webhook
+   - `NUMBER_ID` = ID nomor WhatsApp bisnis
+   - `PORT` = `3000` (bisa juga diatur otomatis oleh Vercel)
 
-## Struktur Project
-```
-├── index.js
-├── package.json
-├── .env.example
-└── README.md
-```
+---
 
-### By: Nanami-chan ⸝⸝⸝╸▵╺⸝⸝⸝
+## 🕊️ Struktur Project
